@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{   
+    float a,b,c;
+	cout<<"the size of int is = "<<sizeof(int)<<endl;
+	cout<<"the size of char is = "<<sizeof(char)<<endl;
+	cout<<"the size of float is = "<<sizeof(float)<<endl;
+	cout<<"the size of double is = "<<sizeof(double)<<endl;
+	
+	cout<<"enter two numbers: "<<endl;
+	cin>>a>>b;
+	c=(a*b);
+	cout<<"the product is : "<<c;
+	return 0;
+	
+}
